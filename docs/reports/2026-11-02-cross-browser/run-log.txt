@@ -1,0 +1,262 @@
+
+Running 104 tests using 4 workers
+
+  ✓    3 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:10:7 › Top navigation and layout › Top navigation renders all expected items @navigation @smoke (4.8s)
+  ✓    2 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:28:9 › Top navigation and layout › "<item>" opens the correct page › "OTC Desk" opens the correct page @navigation @smoke (7.0s)
+  ✓    4 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:23:9 › Top navigation and layout › "<item>" opens the correct page › "Features" opens the correct page @navigation @smoke (7.3s)
+  ✓    1 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:18:9 › Top navigation and layout › "<item>" opens the correct page › "Explore" opens the correct page @navigation @smoke (7.6s)
+  ✓    5 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:33:9 › Top navigation and layout › "<item>" opens the correct page › "Company" opens the correct page @navigation @smoke (5.5s)
+  ✓    7 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:43:9 › Top navigation and layout › "<item>" opens the correct page › "Blog" opens the correct page @navigation @smoke (3.5s)
+  ✓    6 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:38:9 › Top navigation and layout › "<item>" opens the correct page › "Support" opens the correct page @navigation @smoke (4.0s)
+  ✓    8 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:52:9 › Top navigation and layout › "<item>" points to the correct external destination › "$MBG" points to the correct external destination @navigation @smoke (5.0s)
+  ✓    9 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:57:9 › Top navigation and layout › "<item>" points to the correct external destination › "Sign in" points to the correct external destination @navigation @smoke (3.0s)
+  ✓   10 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:62:9 › Top navigation and layout › "<item>" points to the correct external destination › "Sign up" points to the correct external destination @navigation @smoke (3.0s)
+  ✓   11 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:71:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1280x720 desktop viewport @navigation (3.3s)
+  ✓   15 [desktop-chromium] › .features-gen/features/02_trading.feature.spec.js:10:7 › Spot market › Spot trading section renders and lists trading pairs @trading @smoke (4.7s)
+  ✓   12 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:79:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1366x768 desktop viewport @navigation (6.6s)
+  ✓   14 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:95:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1920x1080 desktop viewport @navigation (5.6s)
+  ✓   13 [desktop-chromium] › .features-gen/features/01_navigation.feature.spec.js:87:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1440x900 desktop viewport @navigation (6.1s)
+  ✓   16 [desktop-chromium] › .features-gen/features/02_trading.feature.spec.js:17:9 › Spot market › Pairs listed under "<category>" belong to that category › Pairs listed under "Hot" belong to that category @trading (9.4s)
+  ✓   19 [desktop-chromium] › .features-gen/features/02_trading.feature.spec.js:37:7 › Spot market › Switching category regroups the listed pairs @trading (9.3s)
+  ✓   17 [desktop-chromium] › .features-gen/features/02_trading.feature.spec.js:23:9 › Spot market › Pairs listed under "<category>" belong to that category › Pairs listed under "Gainers" belong to that category @trading (9.5s)
+  ✓   18 [desktop-chromium] › .features-gen/features/02_trading.feature.spec.js:29:9 › Spot market › Pairs listed under "<category>" belong to that category › Pairs listed under "Losers" belong to that category @trading (9.4s)
+  ✓   22 [desktop-chromium] › .features-gen/features/03_content.feature.spec.js:6:7 › Marketing content and links › Marketing banners render between the page heading and the spot market @content (5.7s)
+  ✓   20 [desktop-chromium] › .features-gen/features/02_trading.feature.spec.js:45:7 › Spot market › Each trading pair entry contains the expected data fields @trading (6.0s)
+  ✓   21 [desktop-chromium] › .features-gen/features/02_trading.feature.spec.js:50:7 › Spot market › Selecting a trading pair opens its asset page @trading (6.0s)
+  ✓   26 [desktop-chromium] › .features-gen/features/04_negative.feature.spec.js:8:9 › Negative and edge cases › Unknown route "<path>" is handled with a 404 › Unknown route "/qa-missing-page-{unique}" is handled with a 404 @negative (789ms)
+  ✓   23 [desktop-chromium] › .features-gen/features/03_content.feature.spec.js:13:9 › Marketing content and links › "Download the app" resolves to <store> on a <platform> device › "Download the app" resolves to App Store on a iOS device @content (6.9s)
+  ✓   28 [desktop-chromium] › .features-gen/features/04_negative.feature.spec.js:20:9 › Negative and edge cases › Unknown route "<path>" is handled with a 404 › Unknown route "/explore/../../etc/passwd-{unique}" is handled with a 404 @negative (1.2s)
+  ✓   27 [desktop-chromium] › .features-gen/features/04_negative.feature.spec.js:14:9 › Negative and edge cases › Unknown route "<path>" is handled with a 404 › Unknown route "/qa/deeply/nested/route-{unique}" is handled with a 404 @negative (1.4s)
+  ✓   24 [desktop-chromium] › .features-gen/features/03_content.feature.spec.js:18:9 › Marketing content and links › "Download the app" resolves to <store> on a <platform> device › "Download the app" resolves to Google Play on a Android device @content (3.2s)
+  ✓   25 [desktop-chromium] › .features-gen/features/03_content.feature.spec.js:25:7 › Marketing content and links › About Us - Why MultiBank page renders all expected components @content @smoke (6.6s)
+  ✓   29 [desktop-chromium] › .features-gen/features/04_negative.feature.spec.js:30:9 › Negative and edge cases › No broken links in the <area> › No broken links in the header @negative @links (4.3s)
+  ✓   30 [desktop-chromium] › .features-gen/features/04_negative.feature.spec.js:35:9 › Negative and edge cases › No broken links in the <area> › No broken links in the footer @negative @links (4.4s)
+  ✓   34 [desktop-chromium] › .features-gen/features/05_api.feature.spec.js:8:9 › Public market data API › "<endpoint>" endpoint returns valid JSON matching its schema › "instruments" endpoint returns valid JSON matching its schema @api (282ms)
+  ✓   35 [desktop-chromium] › .features-gen/features/05_api.feature.spec.js:15:9 › Public market data API › "<endpoint>" endpoint returns valid JSON matching its schema › "widget" endpoint returns valid JSON matching its schema @api (527ms)
+  ✓   32 [desktop-chromium] › .features-gen/features/04_negative.feature.spec.js:49:7 › Negative and edge cases › Page degrades gracefully when market data is unavailable @negative @timeout (1.5s)
+  ✓   36 [desktop-chromium] › .features-gen/features/05_api.feature.spec.js:22:9 › Public market data API › "<endpoint>" endpoint returns valid JSON matching its schema › "prices" endpoint returns valid JSON matching its schema @api (572ms)
+  ✓   37 [desktop-chromium] › .features-gen/features/05_api.feature.spec.js:31:7 › Public market data API › Instruments include the core assets @api (339ms)
+  ✓   38 [desktop-chromium] › .features-gen/features/05_api.feature.spec.js:36:7 › Public market data API › Market widget groups assets into the spot categories @api (770ms)
+  ✓   33 [desktop-chromium] › .features-gen/features/04_negative.feature.spec.js:57:7 › Negative and edge cases › A hanging third-party chat widget does not block the page @negative @timeout (3.4s)
+  ✓   31 [desktop-chromium] › .features-gen/features/04_negative.feature.spec.js:42:7 › Negative and edge cases › Spot market tolerates slow market data @negative @timeout (7.2s)
+  ✓   39 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:10:7 › Top navigation and layout › Top navigation renders all expected items @navigation @smoke (10.9s)
+  ✓   41 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:23:9 › Top navigation and layout › "<item>" opens the correct page › "Features" opens the correct page @navigation @smoke (12.6s)
+  ✓   42 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:28:9 › Top navigation and layout › "<item>" opens the correct page › "OTC Desk" opens the correct page @navigation @smoke (13.4s)
+  ✓   43 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:33:9 › Top navigation and layout › "<item>" opens the correct page › "Company" opens the correct page @navigation @smoke (9.3s)
+  ✓   44 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:38:9 › Top navigation and layout › "<item>" opens the correct page › "Support" opens the correct page @navigation @smoke (8.1s)
+  ✓   45 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:43:9 › Top navigation and layout › "<item>" opens the correct page › "Blog" opens the correct page @navigation @smoke (7.6s)
+  ✓   46 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:52:9 › Top navigation and layout › "<item>" points to the correct external destination › "$MBG" points to the correct external destination @navigation @smoke (7.2s)
+  ✓   48 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:62:9 › Top navigation and layout › "<item>" points to the correct external destination › "Sign up" points to the correct external destination @navigation @smoke (6.1s)
+  ✓   47 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:57:9 › Top navigation and layout › "<item>" points to the correct external destination › "Sign in" points to the correct external destination @navigation @smoke (7.1s)
+  ✘   40 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:18:9 › Top navigation and layout › "<item>" opens the correct page › "Explore" opens the correct page @navigation @smoke (29.1s)
+  ✓   49 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:71:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1280x720 desktop viewport @navigation (10.3s)
+  ✓   51 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:87:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1440x900 desktop viewport @navigation (9.3s)
+  ✓   50 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:79:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1366x768 desktop viewport @navigation (9.9s)
+  ✓   53 [desktop-firefox] › .features-gen/features/02_trading.feature.spec.js:10:7 › Spot market › Spot trading section renders and lists trading pairs @trading @smoke (9.8s)
+  ✓   54 [desktop-firefox] › .features-gen/features/02_trading.feature.spec.js:17:9 › Spot market › Pairs listed under "<category>" belong to that category › Pairs listed under "Hot" belong to that category @trading (11.0s)
+  ✓   55 [desktop-firefox] › .features-gen/features/02_trading.feature.spec.js:23:9 › Spot market › Pairs listed under "<category>" belong to that category › Pairs listed under "Gainers" belong to that category @trading (11.0s)
+  ✓   52 [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:95:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1920x1080 desktop viewport @navigation (17.2s)
+  ✓   58 [desktop-firefox] › .features-gen/features/02_trading.feature.spec.js:45:7 › Spot market › Each trading pair entry contains the expected data fields @trading (9.0s)
+  ✓   56 [desktop-firefox] › .features-gen/features/02_trading.feature.spec.js:29:9 › Spot market › Pairs listed under "<category>" belong to that category › Pairs listed under "Losers" belong to that category @trading (12.6s)
+  ✓   59 [desktop-firefox] › .features-gen/features/02_trading.feature.spec.js:50:7 › Spot market › Selecting a trading pair opens its asset page @trading (11.0s)
+  ✓   57 [desktop-firefox] › .features-gen/features/02_trading.feature.spec.js:37:7 › Spot market › Switching category regroups the listed pairs @trading (14.2s)
+  ✓   61 [desktop-firefox] › .features-gen/features/03_content.feature.spec.js:13:9 › Marketing content and links › "Download the app" resolves to <store> on a <platform> device › "Download the app" resolves to App Store on a iOS device @content (10.3s)
+  ✓   60 [desktop-firefox] › .features-gen/features/03_content.feature.spec.js:6:7 › Marketing content and links › Marketing banners render between the page heading and the spot market @content (14.8s)
+  ✓   62 [desktop-firefox] › .features-gen/features/03_content.feature.spec.js:18:9 › Marketing content and links › "Download the app" resolves to <store> on a <platform> device › "Download the app" resolves to Google Play on a Android device @content (11.4s)
+  ✓   64 [desktop-firefox] › .features-gen/features/04_negative.feature.spec.js:8:9 › Negative and edge cases › Unknown route "<path>" is handled with a 404 › Unknown route "/qa-missing-page-{unique}" is handled with a 404 @negative (3.3s)
+  ✓   66 [desktop-firefox] › .features-gen/features/04_negative.feature.spec.js:20:9 › Negative and edge cases › Unknown route "<path>" is handled with a 404 › Unknown route "/explore/../../etc/passwd-{unique}" is handled with a 404 @negative (1.5s)
+  ✓   65 [desktop-firefox] › .features-gen/features/04_negative.feature.spec.js:14:9 › Negative and edge cases › Unknown route "<path>" is handled with a 404 › Unknown route "/qa/deeply/nested/route-{unique}" is handled with a 404 @negative (2.1s)
+  ✓   63 [desktop-firefox] › .features-gen/features/03_content.feature.spec.js:25:7 › Marketing content and links › About Us - Why MultiBank page renders all expected components @content @smoke (13.3s)
+  ✓   67 [desktop-firefox] › .features-gen/features/04_negative.feature.spec.js:30:9 › Negative and edge cases › No broken links in the <area> › No broken links in the header @negative @links (5.4s)
+  ✓   69 [desktop-firefox] › .features-gen/features/04_negative.feature.spec.js:42:7 › Negative and edge cases › Spot market tolerates slow market data @negative @timeout (9.6s)
+  ✓   68 [desktop-firefox] › .features-gen/features/04_negative.feature.spec.js:35:9 › Negative and edge cases › No broken links in the <area> › No broken links in the footer @negative @links (10.3s)
+  ✓   70 [desktop-firefox] › .features-gen/features/04_negative.feature.spec.js:49:7 › Negative and edge cases › Page degrades gracefully when market data is unavailable @negative @timeout (9.5s)
+  ✓   71 [desktop-firefox] › .features-gen/features/04_negative.feature.spec.js:57:7 › Negative and edge cases › A hanging third-party chat widget does not block the page @negative @timeout (7.5s)
+  ✓   74 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:23:9 › Top navigation and layout › "<item>" opens the correct page › "Features" opens the correct page @navigation @smoke (12.1s)
+  ✓   72 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:10:7 › Top navigation and layout › Top navigation renders all expected items @navigation @smoke (12.1s)
+  ✓   73 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:18:9 › Top navigation and layout › "<item>" opens the correct page › "Explore" opens the correct page @navigation @smoke (12.1s)
+  ✓   78 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:43:9 › Top navigation and layout › "<item>" opens the correct page › "Blog" opens the correct page @navigation @smoke (7.8s)
+  ✓   77 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:38:9 › Top navigation and layout › "<item>" opens the correct page › "Support" opens the correct page @navigation @smoke (8.0s)
+  ✓   80 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:57:9 › Top navigation and layout › "<item>" points to the correct external destination › "Sign in" points to the correct external destination @navigation @smoke (5.8s)
+  ✓   79 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:52:9 › Top navigation and layout › "<item>" points to the correct external destination › "$MBG" points to the correct external destination @navigation @smoke (5.8s)
+  ✘   75 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:28:9 › Top navigation and layout › "<item>" opens the correct page › "OTC Desk" opens the correct page @navigation @smoke (26.1s)
+  ✓   81 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:62:9 › Top navigation and layout › "<item>" points to the correct external destination › "Sign up" points to the correct external destination @navigation @smoke (5.5s)
+  ✓   82 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:71:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1280x720 desktop viewport @navigation (6.1s)
+  ✓   83 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:79:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1366x768 desktop viewport @navigation (7.9s)
+  ✓   84 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:87:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1440x900 desktop viewport @navigation (7.0s)
+  ✓   85 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:95:9 › Top navigation and layout › Navigation layout holds at <width>x<height> desktop viewport › Navigation layout holds at 1920x1080 desktop viewport @navigation (6.6s)
+  ✘   76 [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:33:9 › Top navigation and layout › "<item>" opens the correct page › "Company" opens the correct page @navigation @smoke (27.9s)
+  ✓   86 [desktop-webkit] › .features-gen/features/02_trading.feature.spec.js:10:7 › Spot market › Spot trading section renders and lists trading pairs @trading @smoke (7.8s)
+  ✓   88 [desktop-webkit] › .features-gen/features/02_trading.feature.spec.js:23:9 › Spot market › Pairs listed under "<category>" belong to that category › Pairs listed under "Gainers" belong to that category @trading (6.3s)
+  ✓   87 [desktop-webkit] › .features-gen/features/02_trading.feature.spec.js:17:9 › Spot market › Pairs listed under "<category>" belong to that category › Pairs listed under "Hot" belong to that category @trading (13.5s)
+  ✓   91 [desktop-webkit] › .features-gen/features/02_trading.feature.spec.js:45:7 › Spot market › Each trading pair entry contains the expected data fields @trading (6.9s)
+  ✓   89 [desktop-webkit] › .features-gen/features/02_trading.feature.spec.js:37:7 › Spot market › Switching category regroups the listed pairs @trading (9.9s)
+  ✓   90 [desktop-webkit] › .features-gen/features/02_trading.feature.spec.js:29:9 › Spot market › Pairs listed under "<category>" belong to that category › Pairs listed under "Losers" belong to that category @trading (9.2s)
+  ✓   93 [desktop-webkit] › .features-gen/features/03_content.feature.spec.js:6:7 › Marketing content and links › Marketing banners render between the page heading and the spot market @content (12.1s)
+  ✓   92 [desktop-webkit] › .features-gen/features/02_trading.feature.spec.js:50:7 › Spot market › Selecting a trading pair opens its asset page @trading (12.1s)
+  ✓   94 [desktop-webkit] › .features-gen/features/03_content.feature.spec.js:13:9 › Marketing content and links › "Download the app" resolves to <store> on a <platform> device › "Download the app" resolves to App Store on a iOS device @content (11.4s)
+  ✓   95 [desktop-webkit] › .features-gen/features/03_content.feature.spec.js:18:9 › Marketing content and links › "Download the app" resolves to <store> on a <platform> device › "Download the app" resolves to Google Play on a Android device @content (9.9s)
+  ✓   99 [desktop-webkit] › .features-gen/features/04_negative.feature.spec.js:20:9 › Negative and edge cases › Unknown route "<path>" is handled with a 404 › Unknown route "/explore/../../etc/passwd-{unique}" is handled with a 404 @negative (1.3s)
+  ✓   98 [desktop-webkit] › .features-gen/features/04_negative.feature.spec.js:14:9 › Negative and edge cases › Unknown route "<path>" is handled with a 404 › Unknown route "/qa/deeply/nested/route-{unique}" is handled with a 404 @negative (1.9s)
+  ✓   97 [desktop-webkit] › .features-gen/features/04_negative.feature.spec.js:8:9 › Negative and edge cases › Unknown route "<path>" is handled with a 404 › Unknown route "/qa-missing-page-{unique}" is handled with a 404 @negative (3.4s)
+  ✓  101 [desktop-webkit] › .features-gen/features/04_negative.feature.spec.js:35:9 › Negative and edge cases › No broken links in the <area> › No broken links in the footer @negative @links (8.2s)
+  ✓   96 [desktop-webkit] › .features-gen/features/03_content.feature.spec.js:25:7 › Marketing content and links › About Us - Why MultiBank page renders all expected components @content @smoke (12.3s)
+  ✓  100 [desktop-webkit] › .features-gen/features/04_negative.feature.spec.js:30:9 › Negative and edge cases › No broken links in the <area> › No broken links in the header @negative @links (9.7s)
+  ✓  102 [desktop-webkit] › .features-gen/features/04_negative.feature.spec.js:42:7 › Negative and edge cases › Spot market tolerates slow market data @negative @timeout (9.1s)
+  ✓  103 [desktop-webkit] › .features-gen/features/04_negative.feature.spec.js:49:7 › Negative and edge cases › Page degrades gracefully when market data is unavailable @negative @timeout (4.5s)
+  ✓  104 [desktop-webkit] › .features-gen/features/04_negative.feature.spec.js:57:7 › Negative and edge cases › A hanging third-party chat widget does not block the page @negative @timeout (4.3s)
+
+
+  1) [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:18:9 › Top navigation and layout › "<item>" opens the correct page › "Explore" opens the correct page @navigation @smoke › Then I land on the destination configured for "Explore" 
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected pattern: /Explore/i
+    Received string:  "Trade Crypto Fast & Secure | Low Fees Exchange | mb.io"
+    Timeout: 15000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 15000ms
+        18 × locator resolved to <html dir="ltr" lang="en-AE" translate="no" class="__variable_d8ebd1">…</html>
+           - unexpected value "Trade Crypto Fast & Secure | Low Fees Exchange | mb.io"
+
+
+       at ../src/steps/navigation.steps.ts:42
+
+      40 |
+      41 |   await page.waitForURL((url) => pathMatcher(item.path!).test(url.pathname));
+    > 42 |   await expect(page).toHaveTitle(item.title ?? /\S/);
+         |                      ^
+      43 |   await expect(sitePage.header.root).toBeVisible();
+      44 |   if (item.heading) {
+      45 |     await expect(sitePage.mainHeading).toHaveText(item.heading, { timeout: env.timeouts.contentLoad });
+        at Object.<anonymous> (src/steps/navigation.steps.ts:42:22)
+        at .features-gen/features/01_navigation.feature.spec.js:20:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/features-01_navigation.fea-cb057-lore-opens-the-correct-page-desktop-firefox/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/features-01_navigation.fea-cb057-lore-opens-the-correct-page-desktop-firefox/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/features-01_navigation.fea-cb057-lore-opens-the-correct-page-desktop-firefox/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/features-01_navigation.fea-cb057-lore-opens-the-correct-page-desktop-firefox/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/features-01_navigation.fea-cb057-lore-opens-the-correct-page-desktop-firefox/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:28:9 › Top navigation and layout › "<item>" opens the correct page › "OTC Desk" opens the correct page @navigation @smoke › Then I land on the destination configured for "OTC Desk" 
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected pattern: /OTC/i
+    Received string:  "Trade Crypto Fast & Secure | Low Fees Exchange | mb.io"
+    Timeout: 15000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 15000ms
+        29 × locator resolved to <html dir="ltr" lang="en-AE" translate="no" class="__variable_d8ebd1">…</html>
+           - unexpected value "Trade Crypto Fast & Secure | Low Fees Exchange | mb.io"
+
+
+       at ../src/steps/navigation.steps.ts:42
+
+      40 |
+      41 |   await page.waitForURL((url) => pathMatcher(item.path!).test(url.pathname));
+    > 42 |   await expect(page).toHaveTitle(item.title ?? /\S/);
+         |                      ^
+      43 |   await expect(sitePage.header.root).toBeVisible();
+      44 |   if (item.heading) {
+      45 |     await expect(sitePage.mainHeading).toHaveText(item.heading, { timeout: env.timeouts.contentLoad });
+        at Object.<anonymous> (src/steps/navigation.steps.ts:42:22)
+        at .features-gen/features/01_navigation.feature.spec.js:30:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/features-01_navigation.fea-78182-Desk-opens-the-correct-page-desktop-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: uncaught-page-errors (text/plain) ───────────────────────────────────────────────
+    /mb.io" from accessing a frame with origin "https://secure.livechatinc.com". Protocols, domains, and ports must match.
+    
+    /mb.io" from accessing a frame with origin "https://consentcdn.cookiebot.com". Protocols, domains, and ports must match.
+    
+    /mb.io" from accessing a frame with origin "https://consen...
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/features-01_navigation.fea-78182-Desk-opens-the-correct-page-desktop-webkit/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/features-01_navigation.fea-78182-Desk-opens-the-correct-page-desktop-webkit/error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/features-01_navigation.fea-78182-Desk-opens-the-correct-page-desktop-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/features-01_navigation.fea-78182-Desk-opens-the-correct-page-desktop-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:33:9 › Top navigation and layout › "<item>" opens the correct page › "Company" opens the correct page @navigation @smoke › Then I land on the destination configured for "Company" 
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected pattern: /About/i
+    Received string:  "Trade Crypto Fast & Secure | Low Fees Exchange | mb.io"
+    Timeout: 15000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 15000ms
+        31 × locator resolved to <html dir="ltr" lang="en-AE" translate="no" class="__variable_d8ebd1">…</html>
+           - unexpected value "Trade Crypto Fast & Secure | Low Fees Exchange | mb.io"
+
+
+       at ../src/steps/navigation.steps.ts:42
+
+      40 |
+      41 |   await page.waitForURL((url) => pathMatcher(item.path!).test(url.pathname));
+    > 42 |   await expect(page).toHaveTitle(item.title ?? /\S/);
+         |                      ^
+      43 |   await expect(sitePage.header.root).toBeVisible();
+      44 |   if (item.heading) {
+      45 |     await expect(sitePage.mainHeading).toHaveText(item.heading, { timeout: env.timeouts.contentLoad });
+        at Object.<anonymous> (src/steps/navigation.steps.ts:42:22)
+        at .features-gen/features/01_navigation.feature.spec.js:35:7
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/features-01_navigation.fea-563b5-pany-opens-the-correct-page-desktop-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: uncaught-page-errors (text/plain) ───────────────────────────────────────────────
+    /mb.io" from accessing a frame with origin "https://consentcdn.cookiebot.com". Protocols, domains, and ports must match.
+    
+    /mb.io" from accessing a frame with origin "https://secure.livechatinc.com". Protocols, domains, and ports must match.
+    
+    /mb.io" from accessing a frame with origin "https://secure...
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results/features-01_navigation.fea-563b5-pany-opens-the-correct-page-desktop-webkit/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/features-01_navigation.fea-563b5-pany-opens-the-correct-page-desktop-webkit/error-context.md
+
+    attachment #5: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/features-01_navigation.fea-563b5-pany-opens-the-correct-page-desktop-webkit/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/features-01_navigation.fea-563b5-pany-opens-the-correct-page-desktop-webkit/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [desktop-firefox] › .features-gen/features/01_navigation.feature.spec.js:18:9 › Top navigation and layout › "<item>" opens the correct page › "Explore" opens the correct page @navigation @smoke 
+    [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:28:9 › Top navigation and layout › "<item>" opens the correct page › "OTC Desk" opens the correct page @navigation @smoke 
+    [desktop-webkit] › .features-gen/features/01_navigation.feature.spec.js:33:9 › Top navigation and layout › "<item>" opens the correct page › "Company" opens the correct page @navigation @smoke 
+  101 passed (3.8m)

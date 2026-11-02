@@ -1,0 +1,38 @@
+{
+  "name": "mb-io-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BDD end-to-end test framework for mb.io (formerly trade.multibank.io) built on Playwright, playwright-bdd (Cucumber/Gherkin) and Allure.",
+  "scripts": {
+    "e2e": "npm ci && playwright install chromium firefox webkit && npm run test:all",
+    "bddgen": "bddgen",
+    "test": "npm run clean:results && bddgen && playwright test",
+    "test:desktop": "npm run clean:results && bddgen && playwright test --project=desktop-chromium",
+    "test:smoke": "npm run clean:results && bddgen && playwright test --project=desktop-chromium --grep @smoke",
+    "test:api": "npm run clean:results && bddgen && playwright test --project=desktop-chromium --grep @api",
+    "test:negative": "npm run clean:results && bddgen && playwright test --grep @negative",
+    "test:navigation": "npm run clean:results && bddgen && playwright test --grep @navigation",
+    "test:trading": "npm run clean:results && bddgen && playwright test --grep @trading",
+    "test:content": "npm run clean:results && bddgen && playwright test --grep @content",
+    "test:all": "npm run clean:results && bddgen && CROSS_BROWSER=1 playwright test",
+    "test:cross-browser": "npm run clean:results && bddgen && CROSS_BROWSER=1 playwright test --project=desktop-firefox --project=desktop-webkit",
+    "clean:results": "rm -rf allure-results allure-report",
+    "list": "bddgen && playwright test --list",
+    "typecheck": "bddgen && tsc --noEmit",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "report:html": "playwright show-report",
+    "clean": "rm -rf .features-gen allure-results allure-report playwright-report test-results"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^22.10.0",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.14.0",
+    "dotenv": "^16.4.7",
+    "playwright-bdd": "^9.2.1",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
