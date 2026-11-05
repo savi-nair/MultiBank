@@ -6,7 +6,7 @@ on:
   pull_request:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *' # nightly, 03:00 UTC
+    - cron: '0 6 * * *' # nightly, 03:00 UTC
 
 jobs:
   test:
@@ -47,7 +47,13 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           pattern: reports-*
-      - run: mkdir -p allure-results && cp -r reports-*/allure-results/* allure-results/
+      # One cp per browser: every project writes the same environment.properties,
+      # and a single cp refuses to overwrite a file it has just created.
+      - run: |
+          mkdir -p allure-results
+          for dir in reports-*/allure-results; do
+            cp -r "$dir"/. allure-results/
+          done
       - uses: actions/setup-java@v4
         with:
           distribution: temurin

@@ -8,8 +8,6 @@ import type { MarketCategory } from '../support/apiClient';
 Given('I open the {string} page', async ({ page, sitePage, ctx }, name: string) => {
   const target = resolvePage(name);
 
-  // Keep the latest market-widget payload the page itself received; the
-  // trading steps use it as the oracle for what the UI should display.
   page.on('response', async (response) => {
     if (/\/market\/widget(\?|$)/.test(response.url()) && response.ok()) {
       ctx.marketWidget = (await response.json().catch(() => null)) as MarketCategory[] | null;

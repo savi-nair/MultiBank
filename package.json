@@ -14,6 +14,7 @@
     "test:navigation": "npm run clean:results && bddgen && playwright test --grep @navigation",
     "test:trading": "npm run clean:results && bddgen && playwright test --grep @trading",
     "test:content": "npm run clean:results && bddgen && playwright test --grep @content",
+    "test:feature": "npm run clean:results && bddgen && playwright test --grep @feature",
     "test:all": "npm run clean:results && bddgen && CROSS_BROWSER=1 playwright test",
     "test:cross-browser": "npm run clean:results && bddgen && CROSS_BROWSER=1 playwright test --project=desktop-firefox --project=desktop-webkit",
     "clean:results": "rm -rf allure-results allure-report",
